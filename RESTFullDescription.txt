@@ -1,0 +1,30 @@
+RestFull SAL (Snakes And Ladders)
+-----------------------------------------------
+RestFull Dice:
+http://localhost:8080/dices/
+GET (Read)
+{}
+-------------------
+RestFull Token:
+http://localhost:8080/tokens/
+POST (Create)
+{"user_id":"2","tokenId":1}
+
+GET (Read)
+{"tokenId":1}
+
+PUT (Update)
+{"square":"10","user_id":"3","tokenId": 1}
+
+DELETE (Delete)
+{"tokenId":1}
+-------------------------------------------------
+RestFull Game:
+http://localhost:8080/game/move/
+GET (Read)
+{}
+
+http://localhost:8080/game/movereact/
+GET (Read)
+{}
+-----------------------------------------------

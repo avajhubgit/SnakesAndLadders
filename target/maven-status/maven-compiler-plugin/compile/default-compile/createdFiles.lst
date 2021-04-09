@@ -1,0 +1,14 @@
+entity\DiceManager.class
+entity\TokenController.class
+entity\SnakesAndLaddersApplication.class
+entity\TokenRepository.class
+entity\DiceNotFoundException.class
+entity\Token.class
+entity\GameController.class
+entity\SwaggerConfig.class
+entity\DiceController.class
+entity\Dice.class
+entity\TokenByUserNotFoundException.class
+entity\TokenManager.class
+entity\LoadDataBase.class
+entity\TokenNotFoundException.class
